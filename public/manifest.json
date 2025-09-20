@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Strong Password Generator",
+  "version": "1.0.0",
+  "description": "Generate strong, random passwords quickly.",
+  "icons": {
+    "16": "pass.png",
+    "32": "pass.png",
+    "48": "pass.png",
+    "128": "pass.png"
+  },
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "Strong Password Generator"
+  },
+  "permissions": [
+    "clipboardWrite"
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self';"
+  }
+}
