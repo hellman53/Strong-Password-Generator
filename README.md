@@ -17,19 +17,12 @@ This project has been converted into a browser extension while maintaining the o
 Password_Generator/
 ├── src/
 │   ├── App.jsx              # Original web app component
-│   ├── PopupApp.jsx         # Extension-optimized component
-│   ├── popup.jsx            # Extension entry point
-│   ├── popup.css            # Extension-specific styling
 │   ├── App.css              # Original web app styling
 │   ├── index.css            # Tailwind CSS imports
 │   └── main.jsx             # Web app entry point
-├── icons/
-│   ├── icon.svg             # Source SVG icon
-│   └── README.md            # Icon creation instructions
 ├── manifest.json            # Extension manifest
 ├── popup.html               # Extension popup HTML
 ├── index.html               # Original web app HTML
-├── vite.extension.config.js # Extension build configuration
 └── package.json             # Dependencies and scripts
 ```
 
@@ -96,8 +89,6 @@ The extension uses a completely redesigned UI optimized for the popup format:
 
 - `npm run dev` - Start development server for web app
 - `npm run build` - Build web application
-- `npm run build:extension` - Build browser extension
-- `npm run dev:extension` - Build extension and show loading instructions
 - `npm run lint` - Run ESLint
 
 ## 🔧 Configuration
@@ -135,28 +126,6 @@ The extension includes an SVG icon source. To complete the setup:
 - ✅ Edge (Chromium-based)
 - ✅ Other Chromium browsers
 - ❓ Firefox (may need manifest adjustments)
-
-## 🐛 Troubleshooting
-
-### Extension Won't Load
-- Ensure you've run `npm run build:extension`
-- Check that `extension-build/` folder contains all necessary files
-- Verify manifest.json is valid
-
-### Icons Not Showing
-- Create PNG icons as described in `icons/README.md`
-- Temporarily remove icon references from manifest.json
-
-### Copy Function Not Working
-- Check that the extension has clipboard permissions
-- Try using the fallback copy method (text selection)
-
-## 🔄 Updating the Extension
-
-After making changes:
-1. Run `npm run build:extension`
-2. Go to `chrome://extensions/`
-3. Click the refresh button on your extension
 
 ## 📄 License
 
