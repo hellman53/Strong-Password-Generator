@@ -11,6 +11,12 @@ This project has been converted into a browser extension while maintaining the o
 - **Browser Extension**: Use directly from your browser toolbar
 - **Clean UI**: Modern, responsive design optimized for extension popup
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="https://github.com/hellman53/Strong-Password-Generator/blob/6ddf5666525f5cb8345c6c773b15850a3740ca39/public/preview.png" alt="Preview" width="600"/>
+</p>
+
 ## 📁 Project Structure
 
 ```
