@@ -133,10 +133,6 @@ The extension includes an SVG icon source. To complete the setup:
 - ✅ Other Chromium browsers
 - ❓ Firefox (may need manifest adjustments)
 
-## 📄 License
-
-This project is open source and available under the MIT License.
-
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
